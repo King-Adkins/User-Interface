@@ -70,11 +70,24 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+header {
+	background-color: aqua;
+	position: fixed;
+	z-index: 2;
+}
+
 header nav {
 	display: inline-block;
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
+	/* background-color: lightblue;
+	color: black;
+	position: fixed; */
+
+	
+	
+
 }
 
 header nav a {
@@ -97,6 +110,8 @@ header nav a:last-child {
 
 header .logo {
 	margin-top: 25px;
+	/* position: fixed;
+	z-index: -1; */
 }
 
 .cta .cta-text {
