@@ -95,6 +95,10 @@ header nav a:last-child {
 	margin-right: 0;
 }
 
+header .logo {
+	margin-top: 25px;
+}
+
 .cta .cta-text {
 	display: inline-block;
 	vertical-align: top;
@@ -134,12 +138,23 @@ header nav a:last-child {
 	padding: 0 10px;
 }
 
+.main-content .top-content .text-content {
+	width: 410px;
+	display: inline-block;
+	margin-right: 34px;
+}
+
 .main-content .top-content .text-content:last-child {
 	margin-right: 0;
 }
 
 .main-content .middle-img {
 	margin-top: 45px;
+}
+
+.main-content .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
 }
 
 .main-content .bottom-content .text-content {
