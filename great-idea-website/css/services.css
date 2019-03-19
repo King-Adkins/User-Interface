@@ -63,8 +63,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
 .container {
 	width: 880px;
 	margin: 0 auto;
@@ -108,30 +106,10 @@ header .logo {
 .cta .cta-text {
 	display: inline-block;
 	vertical-align: top;
-	font-size: 77px;
+	font-size: 25px;
 	margin-top: 120px;
 	text-align: center;
 	padding: 0px 75px;
-}
-
-.cta .cta-text button {
-	background: white;
-	vertical-align: top;
-	margin-top: 6px;
-	padding: 8px 44px;
-	font-size: 17px;
-	border: 1px solid black;
-	cursor: pointer;
-}
-
-.cta .cta-text button:hover {
-	background: black;
-	color: white;
-}
-
-.cta img {
-	display: inline-block;
-	margin-top: 69px;
 }
 
 .main-content {
@@ -154,23 +132,21 @@ header .logo {
 	margin-right: 0;
 }
 
-.main-content .middle-img {
-	margin-top: 45px;
+.main-content .top-content .cta button {
+	background: white;
+	vertical-align: top;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
 }
 
-.main-content .bottom-content {
-	margin-top: 37px;
-	padding: 0 10px;
-}
-
-.main-content .bottom-content .text-content {
-	width: 275px;
-	display: inline-block;
-	margin-right: 12px;
-}
-
-.main-content .bottom-content .text-content:last-child {
-	margin-right: 0;
+.main-content .top-content .cta button:hover {
+	background: lightsalmon;
+	color: black;
 }
 
 .contact {
@@ -188,3 +164,4 @@ footer {
 	text-align: center;
 	font-size: 14px;
 }
+
